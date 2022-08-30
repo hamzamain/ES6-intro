@@ -11,4 +11,7 @@ const tripled = friends.map(num => {
 });
 // console.log(tripled)
 const fiveTimes = [1, 2, 3, 4, 5, 6, 7, 8].map((a, b) => a * b);
-console.log(fiveTimes)
+// console.log(fiveTimes)
+
+const odds = friends.map(friend => friend % 2 !== 0);
+console.log(odds)
